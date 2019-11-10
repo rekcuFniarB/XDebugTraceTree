@@ -72,3 +72,21 @@ TRACE START [2012-09-25 11:19:54]
 TRACE END   [2012-09-25 11:20:05]
 
 ```
+
+Usage
+-----
+
+    xdebugtracetree trace_file.xt
+
+or
+
+    xdebugtracetree trace_file.xt | less
+
+or
+
+    xdebugtracetree trace_file.xt > output.txt
+
+Install
+-------
+    
+You can install running `./install.sh` and then use `xdebuttracetree` global command or just invoke `xdebugtracetree.py` script directly without installing.
