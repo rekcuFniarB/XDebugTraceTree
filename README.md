@@ -3,7 +3,7 @@ XDebugTraceTree
 
 This simple script adds trees to [XDebug](https://xdebug.org/) traces.
 
-Example input (taken from [here](http://a32.me/2013/05/discover-php-bottlenecks-with-xdebug-or-why-my-site-is-so-slow/):
+Example input (taken from [here](http://a32.me/2013/05/discover-php-bottlenecks-with-xdebug-or-why-my-site-is-so-slow/)):
 
 ```
 TRACE START [2012-09-25 11:19:54]
