@@ -24,7 +24,9 @@ fi
 
 DIR="$(dirname "$0")"
 
-mkdir /opt/xdebugtracetree
+if [ ! -d '/opt/xdebugtracetree' ]; then
+    mkdir /opt/xdebugtracetree
+fi
 
 cp -r "$DIR/"* /opt/xdebugtracetree/
 

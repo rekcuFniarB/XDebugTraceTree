@@ -73,6 +73,9 @@ TRACE END   [2012-09-25 11:20:05]
 
 ```
 
+It doesn't support xdebug trace format other than `trace_format=0` and `collect_return=0`.
+
+
 Usage
 -----
 
@@ -89,4 +92,4 @@ or
 Install
 -------
     
-You can install running `./install.sh` and then use `xdebuttracetree` global command or just invoke `xdebugtracetree.py` script directly without installing.
+You can install running `./install.sh` and then use `xdebugtracetree` global command or just invoke `xdebugtracetree.py` script directly without installing.
