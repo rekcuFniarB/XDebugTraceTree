@@ -24,7 +24,7 @@ if (len(sys.argv) < 2):
     sys.stderr.write('Usage: %s "xdebug_trace.xt"\n' % sys.argv[0])
     sys.exit(1)
 
-with open(sys.argv[1], 'r') as f:
+with open(sys.argv[1], 'rb') as f:
     lines = f.readlines()
 
 ## Previous function position
@@ -41,6 +41,7 @@ def removeFork(position):
             forks.remove(position)
 
 for line in reversed(lines):
+    line = line.decode('utf-8', 'replace')
     ## Current position
     position = line.find('->')
     storeFork(position)
